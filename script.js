@@ -113,7 +113,7 @@ const stickynav = function (entries) {
 let option = {
   root: null,
   rootMargin: "-15px",
-  threshold: 0.1,
+  threshold: 0,
 };
 const headObserve = new IntersectionObserver(stickynav, option);
 headObserve.observe(header);
