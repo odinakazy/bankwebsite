@@ -14,11 +14,11 @@
   --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-}
+} */
 
 html {
   font-size: 62.5%;
@@ -692,10 +692,16 @@ h4 {
   .nav {
     /* padding: 5px 0px;  */
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px auto;
   }
   .nav__logo {
     height: 3.5rem;
     transition: all 0.3s;
+    margin-left: 5rem;
   }
   .nav__links {
     font-size: 2px;
