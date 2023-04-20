@@ -908,10 +908,9 @@ h4 {
     background-color: #37383d;
     border-top: none;
     border-bottom: 1px solid #444;
-    text-align: center;
+    /* text-align: center; */
     padding: 10rem 3rem;
     /* overflow: visible; */
-    width: 46rem;
   }
 
   .section--sign-up .section__header {
@@ -926,9 +925,6 @@ h4 {
   .section--sign-up .btn {
     font-size: 1.9rem;
     padding: 2rem 5rem;
-  }
-  .footer {
-    width: 46.1rem;
   }
   .footer__nav {
     list-style: none;
@@ -993,14 +989,8 @@ h4 {
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
-  body {
-    background-color: green;
-  }
 }
 
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
-  body {
-    background-color: white;
-  }
 }
