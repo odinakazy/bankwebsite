@@ -911,6 +911,7 @@ h4 {
     /* text-align: center; */
     padding: 10rem 3rem;
     /* overflow: visible; */
+    width: 47.3rem;
   }
 
   .section--sign-up .section__header {
@@ -925,6 +926,10 @@ h4 {
   .section--sign-up .btn {
     font-size: 1.9rem;
     padding: 2rem 5rem;
+  }
+  .footer {
+    width: 47.5rem;
+    align-items: center;
   }
   .footer__nav {
     list-style: none;
