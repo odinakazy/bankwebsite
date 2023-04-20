@@ -703,11 +703,12 @@ h4 {
   .nav__logo {
     height: 3.5rem;
     transition: all 0.3s;
-    margin-left: 28rem;
+    margin-left: 48rem;
+    width: 13rem;
   }
   .nav__links {
-    font-size: 2px;
-    margin-left: 190px;
+    font-size: 4px;
+    margin-left: 40rem;
   }
   .header__img {
     margin-top: 10rem;
@@ -715,7 +716,7 @@ h4 {
   .nav__item a {
     margin: 0rem -1.9rem;
     font-size: 3rem;
-    padding: 10px 20px;
+    padding: 10px 45px;
   }
   .nav__link--btn:link,
   .nav__link--btn:visited {
@@ -727,8 +728,9 @@ h4 {
   }
   .header__title {
     display: block;
-    margin-left: 4rem;
+    margin-left: 20rem;
     margin-top: -7.8rem;
+    width: 40rem;
   }
   .header__title h1 {
     font-size: 3rem;
@@ -747,7 +749,7 @@ h4 {
   }
 
   .features__img {
-    width: 100%;
+    width: 50rem;
   }
 
   .features__feature {
@@ -793,7 +795,7 @@ h4 {
     /* text-align: center; */
     padding: 10rem 3rem;
     /* overflow: visible; */
-    width: 64.4rem;
+    width: 79.2rem;
   }
 
   .section--sign-up .section__header {
@@ -810,7 +812,7 @@ h4 {
     padding: 2rem 5rem;
   }
   .footer {
-    width: 64.5rem;
+    width: 79.3rem;
     align-items: center;
   }
   .footer__nav {
@@ -823,10 +825,10 @@ h4 {
     margin-left: 2rem;
   }
   #section--2 {
-    width: 65rem;
+    width: 80rem;
   }
   #section--3 {
-    width: 60rem;
+    width: 80rem;
   }
   .slider__btn {
     padding: 6px 6px;
