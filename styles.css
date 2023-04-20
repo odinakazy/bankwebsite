@@ -119,8 +119,9 @@ img {
   justify-content: space-between;
   align-items: center;
   height: 7rem;
-  width: 1300px;
+  width: 1200px;
   padding: 0 6rem;
+  margin-bottom: 6rem;
   /* background-color: #222; */
   overflow: visible;
   /* z-index: 100; */
@@ -130,12 +131,11 @@ img {
 }
 
 /* nav and stickly class at the same time */
-.nav.sticky {
+/* .nav.sticky {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.95);
   /* height: 6rem; */
-  /* width: 100%; */
-}
+/* width: 100%; */
 
 .nav__logo {
   height: 4.5rem;
@@ -893,7 +893,7 @@ h4 {
     transition: all 0.3s;
   }
   .testimonial__text {
-    font-size: 1.23rem;
+    font-size: 1rem;
   }
   .testimonial__author {
     display: none;
@@ -910,8 +910,8 @@ h4 {
     border-bottom: 1px solid #444;
     text-align: center;
     padding: 10rem 3rem;
-    overflow: visible;
-    width: 46.8rem;
+    /* overflow: visible; */
+    width: 46rem;
   }
 
   .section--sign-up .section__header {
@@ -928,7 +928,7 @@ h4 {
     padding: 2rem 5rem;
   }
   .footer {
-    width: 46.5rem;
+    width: 46.1rem;
   }
   .footer__nav {
     list-style: none;
@@ -941,6 +941,9 @@ h4 {
   }
   #section--2 {
     display: none;
+  }
+  .slider__btn {
+    padding: 6px 6px;
   }
 }
 /* Media Query for low resolution  Tablets, Ipads */
