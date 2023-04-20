@@ -728,6 +728,7 @@ h4 {
   .header__title {
     display: block;
     margin-left: 4rem;
+    margin-top: -7.8rem;
   }
   .header__title h1 {
     font-size: 3rem;
